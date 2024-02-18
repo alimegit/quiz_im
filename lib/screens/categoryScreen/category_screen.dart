@@ -5,6 +5,8 @@ import 'package:product_sale/models/subject_model.dart';
 import 'package:product_sale/screens/categoryScreen/subject_item.dart';
 import 'package:product_sale/utils/colors/app_colors.dart';
 
+import '../levelscreen/level_screen.dart';
+
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({super.key});
 
@@ -21,8 +23,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
         centerTitle: true,
         backgroundColor: AppColors.c_6A5AE0,
         elevation: 0,
-        leading: IconButton(
-            onPressed: () {}, icon: Icon(Icons.arrow_back_ios_new_outlined)),
+
         title: Text(
           "Category",
           style: TextStyle(
@@ -35,7 +36,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
         crossAxisCount: 2,
         mainAxisSpacing: 15.h,
         crossAxisSpacing: 15.w,
-        childAspectRatio: 0.6,
+        childAspectRatio: 0.7.h,
         children: [
           ...List.generate(
             DataRepository().allSubjects.length,
@@ -43,12 +44,18 @@ class _CategoryScreenState extends State<CategoryScreen> {
               SubjectModel subject = DataRepository().allSubjects[index];
               return SubjectItem(
                 color: AppColors.white,
-                time: "12:00",
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) {
+                        return LevelScreen();
+                      })
+                  );
+                },
                 subjectModel: subject,
               );
             },
-          )
+          ),
         ],
       ),
     );

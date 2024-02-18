@@ -13,7 +13,9 @@
           "variant_4": "10"
         }
       ],
-      "image": "assets/images/persons.png"
+      "image": "assets/images/math.png",
+      "time": "10 daqiqa"
+
 
     },
     {
@@ -29,7 +31,8 @@
           "variant_4": "10"
         }
       ],
-      "image": "assets/images/splash.png"
+      "image": "assets/images/english.png",
+      "time": "10 daqiqa"
 
     },
     {
@@ -45,7 +48,8 @@
           "variant_4": "10"
         }
       ],
-      "image": "assets/images/splash.png"
+      "image": "assets/images/math.png",
+      "time": "15 daqiqa"
 
 
     }

@@ -17,7 +17,7 @@ class SubjectModel {
 
   factory SubjectModel.fromJson(Map<String, dynamic> json) {
     return SubjectModel(
-      level: getLevelFromString(json["level"] as String? ?? "medium"),
+      level: getLevelFromString(json["level"] as String? ?? "hard"),
       subjectName: json["subject_name"] as String? ?? "",
       questions: (json["questions"] as List?)
               ?.map((e) => QuizModel.fromJson(e))

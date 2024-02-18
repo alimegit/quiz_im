@@ -1,7 +1,11 @@
 class AppImages {
   //.png
   static const String splash = "assets/images/splash.png";
+  static const String fizika = "assets/images/splash.png";
+  static const String english = "assets/images/splash.png";
+  static const String math = "assets/images/splash.png";
   static const String persons = "assets/images/persons.png";
+  static const String levelback = "assets/images/levelback.png";
 
 
 
