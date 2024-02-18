@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "subject_name": "Matematika",
+      "level": "medium",
+      "questions": [
+        {
+          "question_text": "Suvning kimyoviy formulasi?",
+          "true_answer": "H2O",
+          "variant_1": "Suvning formulasi yuq ",
+          "variant_2": "5",
+          "variant_3": "9",
+          "variant_4": "10"
+        }
+      ],
+      "image": "assets/images/persons.png"
+
+    },
+    {
+      "subject_name": "English",
+      "level": "easy",
+      "questions": [
+        {
+          "question_text": "What's your name?",
+          "true_answer": "Ali",
+          "variant_1": "Sharif",
+          "variant_2": "5",
+          "variant_3": "9",
+          "variant_4": "10"
+        }
+      ],
+      "image": "assets/images/splash.png"
+
+    },
+    {
+      "subject_name": "Matematika",
+      "level": "medium",
+      "questions": [
+        {
+          "question_text": "1+2 nechaga teng?",
+          "true_answer": "3",
+          "variant_1": "3",
+          "variant_2": "5",
+          "variant_3": "9",
+          "variant_4": "10"
+        }
+      ]
+
+    }
+  ]
+}
