@@ -5,18 +5,18 @@ import '../utils/images/app_images.dart';
 
 class DataRepository {
   DataRepository._();
+
   static final DataRepository instance = DataRepository._();
 
-  factory DataRepository()=>instance;
+  factory DataRepository() => instance;
 
-List<SubjectModel> allSubjects = [];
+  List<dynamic> allSubjects = [];
+
   Future<void> loadSubjects() async {
-
-
     var data = await rootBundle.loadString(AppImages.testData);
 
     var decodedData = jsonDecode(data);
-     allSubjects = (decodedData["data"] as List?)
+    allSubjects = (decodedData["data"] as List?)
             ?.map((e) => SubjectModel.fromJson(e))
             .toList() ??
         [];

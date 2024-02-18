@@ -22,17 +22,17 @@ class _SplashScreenState extends State<SplashScreen> {
 
   _init() async {
     DataRepository.instance.loadSubjects();
-    Future.delayed(const Duration(seconds: 3), () {
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => CategoryScreen(),
-        ),
-      );
-    },
+    Future.delayed(
+      const Duration(seconds: 3),
+      () {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => CategoryScreen(),
+          ),
+        );
+      },
     );
-    var d = await DataRepository.instance;
-    print("Subjects Length ${d}");
   }
 
   @override

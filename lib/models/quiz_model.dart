@@ -15,14 +15,13 @@ class QuizModel {
     required this.variant4,
     required this.trueAnswer,
   });
-
   factory QuizModel.fromJson(Map<String, dynamic> json) {
     return QuizModel(
         questionText: json["question_text"] as String? ?? "",
-        variant1: json["true_answer"] as String? ?? "",
-        variant2: json["variant_1"] as String? ?? "",
-        variant3: json["variant_2"] as String? ?? "",
-        variant4: json["variant_3"] as String? ?? "",
-        trueAnswer: json["variant_4"] as String? ?? "");
+        variant1: json["variant_1"] as String? ?? "",
+        variant2: json["variant_2"] as String? ?? "",
+        variant3: json["variant_3"] as String? ?? "",
+        variant4: json["variant_4"] as String? ?? "",
+        trueAnswer: json["true_answer"] as String? ?? "",);
   }
 }

@@ -16,28 +16,41 @@ class _CategoryScreenState extends State<CategoryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.c_6A5AE0,
+      appBar: AppBar(
+        centerTitle: true,
         backgroundColor: AppColors.c_6A5AE0,
-        appBar: AppBar(
-          centerTitle: true,
-          backgroundColor:AppColors.c_6A5AE0,
-          elevation: 0,
-          leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back_ios_new_outlined)),
-          title: Text("Category",style: TextStyle(color: AppColors.white,fontSize: 24.sp,fontWeight: FontWeight.w900),),
+        elevation: 0,
+        leading: IconButton(
+            onPressed: () {}, icon: Icon(Icons.arrow_back_ios_new_outlined)),
+        title: Text(
+          "Category",
+          style: TextStyle(
+              color: AppColors.white,
+              fontSize: 24.sp,
+              fontWeight: FontWeight.w900),
         ),
-        body: Column(
-          children: [
-            ...List.generate(DataRepository().allSubjects.length, (index) {
+      ),
+      body: GridView.count(
+        crossAxisCount: 2,
+        mainAxisSpacing: 15.h,
+        crossAxisSpacing: 15.w,
+        childAspectRatio: 0.6,
+        children: [
+          ...List.generate(
+            DataRepository().allSubjects.length,
+            (index) {
               SubjectModel subject = DataRepository().allSubjects[index];
               return SubjectItem(
                 color: AppColors.white,
-                  time: "12:00",
-                  onTap: () {},
-                  subjectModel: subject,
-              );},
-
-            )
-          ],
-        )
+                time: "12:00",
+                onTap: () {},
+                subjectModel: subject,
+              );
+            },
+          )
+        ],
+      ),
     );
   }
 }
