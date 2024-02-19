@@ -12,6 +12,7 @@ class AppImages {
   //.svg
   static const String arrowBack = "assets/icons/arrow_back.svg";
   static const String oval = "assets/icons/oval.svg";
+  static const String timer = "assets/icons/timer.svg";
   //.jpg
 
   //.gif

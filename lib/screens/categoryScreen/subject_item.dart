@@ -42,12 +42,17 @@ class _SubjectItemState extends State<SubjectItem> {
                     height: 80.h,
                   ),
                   SizedBox(height: 10.h,),
-                  Text(
-                    widget.subjectModel.subjectName,
-                    style: TextStyle(
-                        color: AppColors.black,
-                        fontSize: 20.sp,
-                        fontWeight: FontWeight.w900),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        widget.subjectModel.subjectName,
+                        style: TextStyle(
+                            color: AppColors.black,
+                            fontSize: 20.sp,
+                            fontWeight: FontWeight.w900),
+                      ),
+                    ],
                   ),
 
                 ],

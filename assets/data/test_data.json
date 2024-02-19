@@ -1,170 +1,162 @@
 {
   "data": [
     {
-      "subject_name": "Matematika",
-      "level": "medium",
+      "subject_name": " English Math",
+      "level": "easy",
       "image": "assets/images/math.png",
       "questions": [
-        {
-          "question_text": "Suvning kimyoviy formulasi?",
-          "true_answer": "H2O",
-          "variant_1": "Suvning formulasi yuq ",
-          "variant_2": "5",
-          "variant_3": "9",
-          "variant_4": "10"
-        },
-        {
-          "question_text": "To’plam elementlari qanday belgilanadi?",
-          "true_answer": "Lotin alifbosining kichik harflari",
-          "variant_1": "Lotin alifbosining kichik harflari",
-          "variant_2": "Lotin alifbosining  boshharflari",
-          "variant_3": "Grek alifbosining bosh harflari",
-          "variant_4": "Grek alifbosining kichik harflari"
-        },
-        {
-          "question_text": "Elementlari soniga ko’ra to’plam necha turga bo’linadi?",
-          "true_answer": "2",
-          "variant_1": "3",
-          "variant_2": "2",
-          "variant_3": "5",
-          "variant_4": "6"
-        },
-        {
-          "question_text": "A={3;5;8;21;25} to’plam berilgan bo’lsa, n(A) ni toping.",
-          "true_answer": "5",
-          "variant_1": "3",
-          "variant_2": "5",
-          "variant_3": "4",
-          "variant_4": "7"
-        },
-        {
-          "question_text": "U={13 dan kichik bo'lmagan barcha natural sonlar to'plami}. To’plam turini aniqlang.",
-          "true_answer": "Cheksiz",
-          "variant_1": "Cheksiz",
-          "variant_2": "bo’sh",
-          "variant_3": "chekli",
-          "variant_4": "aniqlabbo’lmaydi"
-        },
-        {
-          "question_text": "U={x/-5≤x≤5,x∈Z}, A={x/1≤x≤4,x∈Z} bo’lsa, A’ to’plam elementlarini toping.",
-          "true_answer": "{-5;-4;-3;-2;-1;0;5}",
-          "variant_1": "{-5;-4;-3;5}",
-          "variant_2": "{-5;-4;-3;-2;-1;0;5}",
-          "variant_3": "{-5;-4;-3;-2;-1}",
-          "variant_4": "{-5;5}"
-        },
-        {
-          "question_text": "Venn diagrammasida universal to’plam qanday tasvirlanadi?",
-          "true_answer": "To’g’ri to’rtburchak",
-          "variant_1": "To’g’ri to’rtburchak",
-          "variant_2": "doira",
-          "variant_3": "aylana",
-          "variant_4": "uchburchak"
-        },
-        {
-          "question_text": ". A=(2;4;6) va B=(5;7) bo’lsa, bu to’plamlar birlashmasi elementlarini toping.",
-          "true_answer": "(2;4;5;6;7)  ",
-          "variant_1": "(4;5;6)",
-          "variant_2": "(2;4;5;6;7)  ",
-          "variant_3": "(2;5;7)",
-          "variant_4": "∅"
-        },
-        {
-          "question_text": "Rost yoki yolg’on bo’lgan darak gap ….. deyiladi. Nuqtalarni to’ldiring.",
-          "true_answer": "mulohaza",
-          "variant_1": "To’plam",
-          "variant_2": "inkor",
-          "variant_3": "dizyunksiya",
-          "variant_4": "mulohaza"
-        },
-        {
-          "question_text": "Qaysi qatorda mantiqiy bog’lovchi ko’rsatilgan?",
-          "true_answer": "barcha javoblar  to’g’ri",
-          "variant_1": "Inkor",
-          "variant_2":"barcha javoblar  to’g’ri",
-          "variant_3": "konyunksiya",
-          "variant_4": "dizyunksiya"
-        },
-        {
-          "question_text": "Qaysi belgi “emas”  yoki “ekanligi noto’g’ri” ma’nosini bildiradi?",
-          "true_answer": "¬",
-          "variant_1": "˄",
-          "variant_2": "¬",
-          "variant_3": "˅",
-          "variant_4": "A’"
-        },
-        {
-          "question_text": "Qaysi qatorda mulohazalar konyunksiyasi keltirilgan?",
-          "true_answer": "12 soni 3 ga va 4 ga bo’linadi ",
-          "variant_1": "X-tub son yoki 4 ga bo’linadi.",
-          "variant_2": "Sardor ertaga suzishga bormaydi.",
-          "variant_3": "12 soni 3 ga va 4 ga bo’linadi ",
-          "variant_4": "x soni 3 ga karrali.’"
-        },
-        {
-          "question_text": "Ushbu mulohazaning simvolini ko’rsating: “Anora kinofilmlarni ko’p ko’rsa, Barno kinofilmlarni ko’p ko’rmaydi.”",
-          "true_answer": "p=>¬q",
-          "variant_1": "p˄¬q",
-          "variant_2": "pv¬q",
-          "variant_3": " p˅¬q",
-          "variant_4": "p=>q"
-        },
-        {
-          "question_text": "p=>q  mulohazaning ….. deb q=>p  mulohazaga aytiladi. Nuqtani to’ldiring:?",
-          "true_answer": "konversiyasi",
-          "variant_1": "Implikatsiyasi",
-          "variant_2": "konversiyasi",
-          "variant_3": "inversiyasi",
-          "variant_4": "kontrapozitsiyasi"
-        },
-        {
-          "question_text": "Kontrapozitsiya bilan teng kuchli mulohazani ko’rsating:",
-          "true_answer": "Implikatsiya",
-          "variant_1": "Implikatsiya",
-          "variant_2": "konversiya",
-          "variant_3": "inversiya",
-          "variant_4": "ekvivalensiya"
-        },
-        {
-          "question_text": "Geometriya necha qismdan iborat?",
-          "true_answer": "2",
-          "variant_1": "2",
-          "variant_2": "3",
-          "variant_3": "4",
-          "variant_4": "5’"
-        },
-        {
-          "question_text": "Maktabda o’rganiladigan geometriya qaysi olim nomi bilan yuritiladi?",
-          "true_answer": "Evklid",
-          "variant_1": "Fales",
-          "variant_2": "Evklid",
-          "variant_3": "Pifagor  ",
-          "variant_4": "Lobachevskiy"
-        },
-        {
-          "question_text": "“Negizlar” asari necha kitobdan iborat?",
-          "true_answer": "13",
-          "variant_1": "11",
-          "variant_2": "13",
-          "variant_3": "23",
-          "variant_4": "10"
-        },
-        {
-          "question_text": "Teorema necha qismdan iborat bo’ladi?",
-          "true_answer": "2",
-          "variant_1": "2",
-          "variant_2": "3",
-          "variant_3": "5",
-          "variant_4": "1"
-        },
-        {
-          "question_text": "Aksioma deb nimaga aytiladi?",
-          "true_answer": "sbot talab qilmaydigan jumla",
-          "variant_1": "Isbot talab qiladigan jumla",
-          "variant_2": "Teoremaning teskarisi",
-          "variant_3": "To’g’ri javob ko’rsatilmagan",
-          "variant_4": "sbot talab qilmaydigan jumla"
-        },
+          {
+            "question_text": "What is the square root of 144?",
+            "true_answer": "12",
+            "variant_1": "10",
+            "variant_2": "14",
+            "variant_3": "16",
+            "variant_4": "18"
+          },
+          {
+            "question_text": "If x = 5 and y = 3, what is the value of x + y?",
+            "true_answer": "8",
+            "variant_1": "7",
+            "variant_2": "9",
+            "variant_3": "10",
+            "variant_4": "12"
+          },
+          {
+            "question_text": "What is 25 divided by 5?",
+            "true_answer": "5",
+            "variant_1": "3",
+            "variant_2": "4",
+            "variant_3": "6",
+            "variant_4": "7"
+          },
+          {
+            "question_text": "If a triangle has angles measuring 90°, 45°, and 45°, what type of triangle is it?",
+            "true_answer": "Right triangle",
+            "variant_1": "Equilateral triangle",
+            "variant_2": "Isosceles triangle",
+            "variant_3": "Scalene triangle",
+            "variant_4": "Obtuse triangle"
+          },
+          {
+            "question_text": "What is the value of π (pi) rounded to two decimal places?",
+            "true_answer": "3.14",
+            "variant_1": "3.16",
+            "variant_2": "3.18",
+            "variant_3": "3.20",
+            "variant_4": "3.22"
+          },
+          {
+            "question_text": "What is the value of 7 factorial (7!)?",
+            "true_answer": "5040",
+            "variant_1": "120",
+            "variant_2": "720",
+            "variant_3": "1440",
+            "variant_4": "360"
+          },
+          {
+            "question_text": "What is the value of the expression: (3 + 5) x 2?",
+            "true_answer": "16",
+            "variant_1": "12",
+            "variant_2": "14",
+            "variant_3": "18",
+            "variant_4": "20"
+          },
+          {
+            "question_text": "What is the value of 2 to the power of 4?",
+            "true_answer": "16",
+            "variant_1": "8",
+            "variant_2": "12",
+            "variant_3": "24",
+            "variant_4": "32"
+          },
+          {
+            "question_text": "What is the value of 6 times 9 plus 3?",
+            "true_answer": "57",
+            "variant_1": "51",
+            "variant_2": "54",
+            "variant_3": "63",
+            "variant_4": "66"
+          },
+          {
+            "question_text": "What is the value of 3 times (4 plus 2)?",
+            "true_answer": "18",
+            "variant_1": "12",
+            "variant_2": "15",
+            "variant_3": "21",
+            "variant_4": "24"
+          },
+          {
+            "question_text": "What is the value of 8 minus (5 minus 2)?",
+            "true_answer": "5",
+            "variant_1": "3",
+            "variant_2": "4",
+            "variant_3": "6",
+            "variant_4": "7"
+          },
+          {
+            "question_text": "What is the value of 18 divided by (3 times 2)?",
+            "true_answer": "3",
+            "variant_1": "2",
+            "variant_2": "4",
+            "variant_3": "6",
+            "variant_4": "9"
+          },
+          {
+            "question_text": "What is the value of 2 raised to the power of 3 plus 4?",
+            "true_answer": "12",
+            "variant_1": "8",
+            "variant_2": "10",
+            "variant_3": "14",
+            "variant_4": "16"
+          },
+          {
+            "question_text": "What is the value of 25 divided by (5 times 2)?",
+            "true_answer": "2.5",
+            "variant_1": "2",
+            "variant_2": "3",
+            "variant_3": "4",
+            "variant_4": "5"
+          },
+          {
+            "question_text": "What is the value of 7 times (4 minus 2) divided by 2?",
+            "true_answer": "7",
+            "variant_1": "4",
+            "variant_2": "5",
+            "variant_3": "6",
+            "variant_4": "8"
+          },
+          {
+            "question_text": "If a right triangle has one leg measuring 6 and the other leg measuring 8, what is the length of the hypotenuse?",
+            "true_answer": "10",
+            "variant_1": "12",
+            "variant_2": "14",
+            "variant_3": "16",
+            "variant_4": "18"
+          },
+          {
+            "question_text": "What is the value of 4 times 7 plus 6 divided by 3?",
+            "true_answer": "18",
+            "variant_1": "15",
+            "variant_2": "16",
+            "variant_3": "20",
+            "variant_4": "24"
+          },
+          {
+            "question_text": "What is the value of 3 raised to the power of 2 minus 4?",
+            "true_answer": "5",
+            "variant_1": "2",
+            "variant_2": "3",
+            "variant_3": "6",
+            "variant_4": "9"
+          },
+          {
+            "question_text": "What is the value of 36 divided by the square root of 9?",
+            "true_answer": "12",
+            "variant_1": "6",
+            "variant_2": "9",
+            "variant_3": "15",
+            "variant_4": "18"
+          },
         {
           "question_text": "g’ri burchakli uchburchakning perimetri 36 sm. Gipotenuzaning katetga nisbati 5:4.Uchburchak tomonlarini toping.?",
           "true_answer": "11,2",
@@ -177,7 +169,7 @@
     },
     {
       "subject_name": "English",
-      "level": "easy",
+      "level": "medium",
       "questions": [
         {
           "question_text": "What's your name?",
@@ -186,7 +178,159 @@
           "variant_2": "5",
           "variant_3": "9",
           "variant_4": "10"
-        }
+        },
+        {
+          "question_text": "What's the capital of France?",
+          "true_answer": "Paris",
+          "variant_1": "London",
+          "variant_2": "Berlin",
+          "variant_3": "Madrid",
+          "variant_4": "Rome"
+        },
+        {
+          "question_text": "Who wrote 'Romeo and Juliet'?",
+          "true_answer": "William Shakespeare",
+          "variant_1": "Charles Dickens",
+          "variant_2": "Jane Austen",
+          "variant_3": "Fyodor Dostoevsky",
+          "variant_4": "Leo Tolstoy"
+        },
+        {
+          "question_text": "What's the capital of Japan?",
+          "true_answer": "Tokyo",
+          "variant_1": "Beijing",
+          "variant_2": "Seoul",
+          "variant_3": "Shanghai",
+          "variant_4": "Osaka"
+        },
+        {
+          "question_text": "What's the tallest mountain in the world?",
+          "true_answer": "Mount Everest",
+          "variant_1": "K2",
+          "variant_2": "Kangchenjunga",
+          "variant_3": "Lhotse",
+          "variant_4": "Makalu"
+        },
+        {
+          "question_text": "Who painted the Mona Lisa?",
+          "true_answer": "Leonardo da Vinci",
+          "variant_1": "Pablo Picasso",
+          "variant_2": "Vincent van Gogh",
+          "variant_3": "Michelangelo",
+          "variant_4": "Claude Monet"
+        },
+        {
+          "question_text": "What's the chemical symbol for water?",
+          "true_answer": "H2O",
+          "variant_1": "CO2",
+          "variant_2": "O2",
+          "variant_3": "HCl",
+          "variant_4": "NH3"
+        },
+        {
+          "question_text": "Who is known as 'The Father of Computers'?",
+          "true_answer": "Charles Babbage",
+          "variant_1": "Alan Turing",
+          "variant_2": "Ada Lovelace",
+          "variant_3": "John von Neumann",
+          "variant_4": "Konrad Zuse"
+        },
+          {
+            "question_text": "What's the capital of Australia?",
+            "true_answer": "Canberra",
+            "variant_1": "Sydney",
+            "variant_2": "Melbourne",
+            "variant_3": "Brisbane",
+            "variant_4": "Perth"
+          },
+          {
+            "question_text": "What's the largest planet in our solar system?",
+            "true_answer": "Jupiter",
+            "variant_1": "Saturn",
+            "variant_2": "Neptune",
+            "variant_3": "Mars",
+            "variant_4": "Uranus"
+          },
+          {
+            "question_text": "Who wrote '1984'?",
+            "true_answer": "George Orwell",
+            "variant_1": "Aldous Huxley",
+            "variant_2": "F. Scott Fitzgerald",
+            "variant_3": "J.D. Salinger",
+            "variant_4": "Ray Bradbury"
+          },
+          {
+            "question_text": "What's the chemical symbol for gold?",
+            "true_answer": "Au",
+            "variant_1": "Ag",
+            "variant_2": "Fe",
+            "variant_3": "Pt",
+            "variant_4": "Cu"
+          },
+          {
+            "question_text": "Who discovered penicillin?",
+            "true_answer": "Alexander Fleming",
+            "variant_1": "Louis Pasteur",
+            "variant_2": "Marie Curie",
+            "variant_3": "Gregor Mendel",
+            "variant_4": "Jonas Salk"
+          },
+          {
+            "question_text": "What's the longest river in the world?",
+            "true_answer": "Nile",
+            "variant_1": "Amazon",
+            "variant_2": "Yangtze",
+            "variant_3": "Mississippi",
+            "variant_4": "Indus"
+          },
+          {
+            "question_text": "Who was the first man to step on the moon?",
+            "true_answer": "Neil Armstrong",
+            "variant_1": "Buzz Aldrin",
+            "variant_2": "Yuri Gagarin",
+            "variant_3": "John Glenn",
+            "variant_4": "Alan Shepard"
+          },
+          {
+            "question_text": "What's the square root of 144?",
+            "true_answer": "12",
+            "variant_1": "10",
+            "variant_2": "14",
+            "variant_3": "16",
+            "variant_4": "18"
+          },
+          {
+            "question_text": "Who is the author of 'The Catcher in the Rye'?",
+            "true_answer": "J.D. Salinger",
+            "variant_1": "F. Scott Fitzgerald",
+            "variant_2": "Ernest Hemingway",
+            "variant_3": "Harper Lee",
+            "variant_4": "Mark Twain"
+          },
+          {
+            "question_text": "What's the tallest building in the world?",
+            "true_answer": "Burj Khalifa",
+            "variant_1": "Shanghai Tower",
+            "variant_2": "Abraj Al Bait Clock Tower",
+            "variant_3": "One World Trade Center",
+            "variant_4": "Taipei 101"
+          },
+          {
+            "question_text": "Who invented the telephone?",
+            "true_answer": "Alexander Graham Bell",
+            "variant_1": "Thomas Edison",
+            "variant_2": "Nikola Tesla",
+            "variant_3": "Guglielmo Marconi",
+            "variant_4": "Samuel Morse"
+          },
+          {
+            "question_text": "What's the chemical symbol for oxygen?",
+            "true_answer": "O",
+            "variant_1": "Om",
+            "variant_2": "Ox",
+            "variant_3": "Og",
+            "variant_4": "Ob"
+          }
       ],
       "image": "assets/images/english.png",
       "time": "10 daqiqa"
@@ -203,7 +347,161 @@
           "variant_2": "5",
           "variant_3": "9",
           "variant_4": "10"
-        }
+        },
+          {
+            "question_text": "1+2 nechaga teng?",
+            "true_answer": "3",
+            "variant_1": "3",
+            "variant_2": "5",
+            "variant_3": "9",
+            "variant_4": "10"
+          },
+          {
+            "question_text": "4x5 nechaga teng?",
+            "true_answer": "20",
+            "variant_1": "9",
+            "variant_2": "15",
+            "variant_3": "25",
+            "variant_4": "30"
+          },
+          {
+            "question_text": "10-3 nechaga teng?",
+            "true_answer": "7",
+            "variant_1": "2",
+            "variant_2": "5",
+            "variant_3": "9",
+            "variant_4": "10"
+          },
+          {
+            "question_text": "6/2 nechaga teng?",
+            "true_answer": "3",
+            "variant_1": "4",
+            "variant_2": "6",
+            "variant_3": "9",
+            "variant_4": "12"
+          },
+          {
+            "question_text": "15-8 nechaga teng?",
+            "true_answer": "7",
+            "variant_1": "2",
+            "variant_2": "5",
+            "variant_3": "9",
+            "variant_4": "10"
+          },
+          {
+            "question_text": "20/4 nechaga teng?",
+            "true_answer": "5",
+            "variant_1": "4",
+            "variant_2": "6",
+            "variant_3": "9",
+            "variant_4": "10"
+          },
+          {
+            "question_text": "7x3 nechaga teng?",
+            "true_answer": "21",
+            "variant_1": "10",
+            "variant_2": "14",
+            "variant_3": "18",
+            "variant_4": "24"
+          },
+          {
+            "question_text": "12-6 nechaga teng?",
+            "true_answer": "6",
+            "variant_1": "2",
+            "variant_2": "5",
+            "variant_3": "9",
+            "variant_4": "10"
+          },
+          {
+            "question_text": "9+4 nechaga teng?",
+            "true_answer": "13",
+            "variant_1": "6",
+            "variant_2": "9",
+            "variant_3": "15",
+            "variant_4": "17"
+          },
+          {
+            "question_text": "14/2 nechaga teng?",
+            "true_answer": "7",
+            "variant_1": "4",
+            "variant_2": "6",
+            "variant_3": "9",
+            "variant_4": "10"
+          },
+          {
+            "question_text": "5x6 nechaga teng?",
+            "true_answer": "30",
+            "variant_1": "15",
+            "variant_2": "18",
+            "variant_3": "24",
+            "variant_4": "36"
+          },
+          {
+            "question_text": "10-5 nechaga teng?",
+            "true_answer": "5",
+            "variant_1": "2",
+            "variant_2": "4",
+            "variant_3": "8",
+            "variant_4": "12"
+          },
+          {
+            "question_text": "16/4 nechaga teng?",
+            "true_answer": "4",
+            "variant_1": "3",
+            "variant_2": "5",
+            "variant_3": "6",
+            "variant_4": "8"
+          },
+          {
+            "question_text": "2+9 nechaga teng?",
+            "true_answer": "11",
+            "variant_1": "5",
+            "variant_2": "7",
+            "variant_3": "13",
+            "variant_4": "15"
+          },
+          {
+            "question_text": "3x8 nechaga teng?",
+            "true_answer": "24",
+            "variant_1": "16",
+            "variant_2": "18",
+            "variant_3": "20",
+            "variant_4": "27"
+          },
+          {
+            "question_text": "7-2 nechaga teng?",
+            "true_answer": "5",
+            "variant_1": "3",
+            "variant_2": "4",
+            "variant_3": "6",
+            "variant_4": "8"
+          },
+          {
+            "question_text": "18/3 nechaga teng?",
+            "true_answer": "6",
+            "variant_1": "3",
+            "variant_2": "4",
+            "variant_3": "7",
+            "variant_4": "9"
+          },
+          {
+            "question_text": "4+6 nechaga teng?",
+            "true_answer": "10",
+            "variant_1": "5",
+            "variant_2": "8",
+            "variant_3": "12",
+            "variant_4": "15"
+          },
+          {
+            "question_text": "9x3 nechaga teng?",
+            "true_answer": "27",
+            "variant_1": "18",
+            "variant_2": "21",
+            "variant_3": "24",
+            "variant_4": "30"
+          }
+
+
       ],
       "image": "assets/images/math.png",
       "time": "15 daqiqa"

@@ -4,9 +4,7 @@ import 'package:product_sale/data/data_repository.dart';
 import 'package:product_sale/models/subject_model.dart';
 import 'package:product_sale/screens/categoryScreen/subject_item.dart';
 import 'package:product_sale/utils/colors/app_colors.dart';
-
-import '../levelscreen/level_screen.dart';
-
+import '../QuizScreen/quiz_screen.dart';
 class CategoryScreen extends StatefulWidget {
   const CategoryScreen({super.key});
 
@@ -55,7 +53,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     context,
                     MaterialPageRoute(
                       builder: (context) {
-                        return LevelScreen(
+                        return QuizScreen(
                           subjectModel: subjects[index],
                         );
                       },
