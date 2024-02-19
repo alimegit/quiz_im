@@ -3,6 +3,7 @@
     {
       "subject_name": "Matematika",
       "level": "medium",
+      "image": "assets/images/math.png",
       "questions": [
         {
           "question_text": "Suvning kimyoviy formulasi?",
@@ -11,12 +12,168 @@
           "variant_2": "5",
           "variant_3": "9",
           "variant_4": "10"
+        },
+        {
+          "question_text": "To’plam elementlari qanday belgilanadi?",
+          "true_answer": "Lotin alifbosining kichik harflari",
+          "variant_1": "Lotin alifbosining kichik harflari",
+          "variant_2": "Lotin alifbosining  boshharflari",
+          "variant_3": "Grek alifbosining bosh harflari",
+          "variant_4": "Grek alifbosining kichik harflari"
+        },
+        {
+          "question_text": "Elementlari soniga ko’ra to’plam necha turga bo’linadi?",
+          "true_answer": "2",
+          "variant_1": "3",
+          "variant_2": "2",
+          "variant_3": "5",
+          "variant_4": "6"
+        },
+        {
+          "question_text": "A={3;5;8;21;25} to’plam berilgan bo’lsa, n(A) ni toping.",
+          "true_answer": "5",
+          "variant_1": "3",
+          "variant_2": "5",
+          "variant_3": "4",
+          "variant_4": "7"
+        },
+        {
+          "question_text": "U={13 dan kichik bo'lmagan barcha natural sonlar to'plami}. To’plam turini aniqlang.",
+          "true_answer": "Cheksiz",
+          "variant_1": "Cheksiz",
+          "variant_2": "bo’sh",
+          "variant_3": "chekli",
+          "variant_4": "aniqlabbo’lmaydi"
+        },
+        {
+          "question_text": "U={x/-5≤x≤5,x∈Z}, A={x/1≤x≤4,x∈Z} bo’lsa, A’ to’plam elementlarini toping.",
+          "true_answer": "{-5;-4;-3;-2;-1;0;5}",
+          "variant_1": "{-5;-4;-3;5}",
+          "variant_2": "{-5;-4;-3;-2;-1;0;5}",
+          "variant_3": "{-5;-4;-3;-2;-1}",
+          "variant_4": "{-5;5}"
+        },
+        {
+          "question_text": "Venn diagrammasida universal to’plam qanday tasvirlanadi?",
+          "true_answer": "To’g’ri to’rtburchak",
+          "variant_1": "To’g’ri to’rtburchak",
+          "variant_2": "doira",
+          "variant_3": "aylana",
+          "variant_4": "uchburchak"
+        },
+        {
+          "question_text": ". A=(2;4;6) va B=(5;7) bo’lsa, bu to’plamlar birlashmasi elementlarini toping.",
+          "true_answer": "(2;4;5;6;7)  ",
+          "variant_1": "(4;5;6)",
+          "variant_2": "(2;4;5;6;7)  ",
+          "variant_3": "(2;5;7)",
+          "variant_4": "∅"
+        },
+        {
+          "question_text": "Rost yoki yolg’on bo’lgan darak gap ….. deyiladi. Nuqtalarni to’ldiring.",
+          "true_answer": "mulohaza",
+          "variant_1": "To’plam",
+          "variant_2": "inkor",
+          "variant_3": "dizyunksiya",
+          "variant_4": "mulohaza"
+        },
+        {
+          "question_text": "Qaysi qatorda mantiqiy bog’lovchi ko’rsatilgan?",
+          "true_answer": "barcha javoblar  to’g’ri",
+          "variant_1": "Inkor",
+          "variant_2":"barcha javoblar  to’g’ri",
+          "variant_3": "konyunksiya",
+          "variant_4": "dizyunksiya"
+        },
+        {
+          "question_text": "Qaysi belgi “emas”  yoki “ekanligi noto’g’ri” ma’nosini bildiradi?",
+          "true_answer": "¬",
+          "variant_1": "˄",
+          "variant_2": "¬",
+          "variant_3": "˅",
+          "variant_4": "A’"
+        },
+        {
+          "question_text": "Qaysi qatorda mulohazalar konyunksiyasi keltirilgan?",
+          "true_answer": "12 soni 3 ga va 4 ga bo’linadi ",
+          "variant_1": "X-tub son yoki 4 ga bo’linadi.",
+          "variant_2": "Sardor ertaga suzishga bormaydi.",
+          "variant_3": "12 soni 3 ga va 4 ga bo’linadi ",
+          "variant_4": "x soni 3 ga karrali.’"
+        },
+        {
+          "question_text": "Ushbu mulohazaning simvolini ko’rsating: “Anora kinofilmlarni ko’p ko’rsa, Barno kinofilmlarni ko’p ko’rmaydi.”",
+          "true_answer": "p=>¬q",
+          "variant_1": "p˄¬q",
+          "variant_2": "pv¬q",
+          "variant_3": " p˅¬q",
+          "variant_4": "p=>q"
+        },
+        {
+          "question_text": "p=>q  mulohazaning ….. deb q=>p  mulohazaga aytiladi. Nuqtani to’ldiring:?",
+          "true_answer": "konversiyasi",
+          "variant_1": "Implikatsiyasi",
+          "variant_2": "konversiyasi",
+          "variant_3": "inversiyasi",
+          "variant_4": "kontrapozitsiyasi"
+        },
+        {
+          "question_text": "Kontrapozitsiya bilan teng kuchli mulohazani ko’rsating:",
+          "true_answer": "Implikatsiya",
+          "variant_1": "Implikatsiya",
+          "variant_2": "konversiya",
+          "variant_3": "inversiya",
+          "variant_4": "ekvivalensiya"
+        },
+        {
+          "question_text": "Geometriya necha qismdan iborat?",
+          "true_answer": "2",
+          "variant_1": "2",
+          "variant_2": "3",
+          "variant_3": "4",
+          "variant_4": "5’"
+        },
+        {
+          "question_text": "Maktabda o’rganiladigan geometriya qaysi olim nomi bilan yuritiladi?",
+          "true_answer": "Evklid",
+          "variant_1": "Fales",
+          "variant_2": "Evklid",
+          "variant_3": "Pifagor  ",
+          "variant_4": "Lobachevskiy"
+        },
+        {
+          "question_text": "“Negizlar” asari necha kitobdan iborat?",
+          "true_answer": "13",
+          "variant_1": "11",
+          "variant_2": "13",
+          "variant_3": "23",
+          "variant_4": "10"
+        },
+        {
+          "question_text": "Teorema necha qismdan iborat bo’ladi?",
+          "true_answer": "2",
+          "variant_1": "2",
+          "variant_2": "3",
+          "variant_3": "5",
+          "variant_4": "1"
+        },
+        {
+          "question_text": "Aksioma deb nimaga aytiladi?",
+          "true_answer": "sbot talab qilmaydigan jumla",
+          "variant_1": "Isbot talab qiladigan jumla",
+          "variant_2": "Teoremaning teskarisi",
+          "variant_3": "To’g’ri javob ko’rsatilmagan",
+          "variant_4": "sbot talab qilmaydigan jumla"
+        },
+        {
+          "question_text": "g’ri burchakli uchburchakning perimetri 36 sm. Gipotenuzaning katetga nisbati 5:4.Uchburchak tomonlarini toping.?",
+          "true_answer": "11,2",
+          "variant_1": "12,2",
+          "variant_2": "11,2",
+          "variant_3": "8,6",
+          "variant_4": "5.4"
         }
-      ],
-      "image": "assets/images/math.png",
-      "time": "10 daqiqa"
-
-
+      ]
     },
     {
       "subject_name": "English",

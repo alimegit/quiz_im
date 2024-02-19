@@ -38,7 +38,20 @@ class _QuizScreenState extends State<QuizScreen> {
         children: [
           GLoAppbar(subjectModel: widget.subjectModel),
           SizedBox(
-            height: 10.h,
+            height: 5.h,
+          ),
+          Padding(
+            padding:  EdgeInsets.symmetric(horizontal: 15.h),
+            child: LinearProgressIndicator(
+              minHeight: 10.h,
+              backgroundColor: AppColors.c_162023,
+              borderRadius: BorderRadius.circular(8.r),
+              color: AppColors.c_F2954D,
+              value: 0.8,
+            ),
+          ),
+          SizedBox(
+            height: 20.h,
           ),
           Expanded(
             child: Container(
@@ -50,24 +63,13 @@ class _QuizScreenState extends State<QuizScreen> {
               ),
               child: Column(
                 children: [
-                  Container(
-                    width: double.infinity,
-                    margin: EdgeInsets.symmetric(horizontal:46.w),
-                    decoration: BoxDecoration(
-                      color: AppColors.c_7048d4,
-                      borderRadius: BorderRadius.circular(20.r),
-                    ),
-                    child: Column(
-                      children: [
-                        Text(questions[0].questionText),
-                        // SizedBox(height: 10.h,),
-                        // Text(questions[0].variant1),
-                        // Text(questions[0].variant2),
-                        // Text(questions[0].variant3),
-                        // Text(questions[0].variant4),
-                      ],
-                    ),
-                  )
+                  SizedBox(height: 20.h,),
+                      Text(questions[0].questionText),
+                      // SizedBox(height: 10.h,),
+                      // Text(questions[0].variant1),
+                      // Text(questions[0].variant2),
+                      // Text(questions[0].variant3),
+                      // Text(questions[0].variant4),
                 ],
               ),
             ),

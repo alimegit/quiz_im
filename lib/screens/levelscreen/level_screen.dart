@@ -22,9 +22,18 @@ class _LevelScreenState extends State<LevelScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: AppColors.c_7048d4,
+        elevation: 0,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: Icon(Icons.arrow_back_ios_new_outlined)),
+      ),
       backgroundColor: AppColors.c_6A5AE0,
       body: Padding(
-        padding: EdgeInsets.only(top: 2001.h),
+        padding: EdgeInsets.only(top: 130.h),
         child: Center(
           child: Column(
             children: [
