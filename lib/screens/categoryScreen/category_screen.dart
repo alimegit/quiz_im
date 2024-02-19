@@ -43,7 +43,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
         crossAxisCount: 2,
         mainAxisSpacing: 15.h,
         crossAxisSpacing: 15.w,
-        childAspectRatio: 0.7.h,
+        childAspectRatio: 0.9.h,
         children: [
           ...List.generate(
             subjects.length,
