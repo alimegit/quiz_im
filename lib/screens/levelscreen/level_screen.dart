@@ -10,8 +10,9 @@ import '../QuizScreen/quiz_screen.dart';
 
 class LevelScreen extends StatefulWidget {
   const LevelScreen({
-    super.key,
+    super.key,required this.subjectModel
   });
+  final SubjectModel subjectModel;
 
   @override
   State<LevelScreen> createState() => _LevelScreenState();
@@ -37,7 +38,7 @@ class _LevelScreenState extends State<LevelScreen> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) {
-                            return QuizScreen();
+                            return QuizScreen(subjectModel: widget.subjectModel,);
                           })
                       );
 

@@ -8,7 +8,8 @@ import 'package:product_sale/utils/colors/app_colors.dart';
 import '../levelscreen/level_screen.dart';
 
 class CategoryScreen extends StatefulWidget {
-  const CategoryScreen({super.key});
+  const CategoryScreen({super.key, required this.subjectModel});
+  final SubjectModel subjectModel;
 
   @override
   State<CategoryScreen> createState() => _CategoryScreenState();
@@ -48,7 +49,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) {
-                        return LevelScreen();
+                        return LevelScreen(subjectModel: widget.subjectModel,);
                       })
                   );
                 },

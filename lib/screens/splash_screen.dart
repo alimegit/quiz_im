@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:product_sale/data/data_repository.dart';
+import 'package:product_sale/models/quiz_model.dart';
+import 'package:product_sale/screens/QuizScreen/quiz_screen.dart';
 import 'package:product_sale/utils/colors/app_colors.dart';
 import 'package:product_sale/utils/images/app_images.dart';
 
+import '../models/subject_model.dart';
 import 'categoryScreen/category_screen.dart';
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({Key? key}) : super(key: key);
-
+  const SplashScreen({Key? key, required this.subjectModel, })
+      : super(key:key);
+final SubjectModel subjectModel;
   @override
   State<SplashScreen> createState() => _SplashScreenState();
 }
@@ -28,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => CategoryScreen(),
+            builder: (context) => CategoryScreen(subjectModel:widget.subjectModel),
           ),
         );
       },
