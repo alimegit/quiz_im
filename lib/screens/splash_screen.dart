@@ -10,9 +10,10 @@ import '../models/subject_model.dart';
 import 'categoryScreen/category_screen.dart';
 
 class SplashScreen extends StatefulWidget {
-  const SplashScreen({Key? key, required this.subjectModel, })
-      : super(key:key);
-final SubjectModel subjectModel;
+  const SplashScreen({
+    Key? key,
+  });
+
   @override
   State<SplashScreen> createState() => _SplashScreenState();
 }
@@ -32,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => CategoryScreen(subjectModel:widget.subjectModel),
+            builder: (context) => const CategoryScreen(),
           ),
         );
       },

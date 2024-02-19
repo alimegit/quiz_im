@@ -10,7 +10,7 @@ class DataRepository {
 
   factory DataRepository() => instance;
 
-  List<dynamic> allSubjects = [];
+  List<SubjectModel> allSubjects = [];
 
   Future<void> loadSubjects() async {
     var data = await rootBundle.loadString(AppImages.testData);

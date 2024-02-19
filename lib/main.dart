@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
           theme: ThemeData(useMaterial3: false),
           home: child,
         );
-      }, child: SplashScreen(subjectModel:widget.subjectModel),
+      }, child: SplashScreen(),
     );
   }
 }

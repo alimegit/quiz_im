@@ -3,17 +3,17 @@ import '../models/level_model.dart';
 
  LevelModel getLevelFromString(String level){
   switch (level){
-    case "easy":{
+    case "easy":
       return LevelModel.easy;
 
-    }
-    case "hard":{
+
+    case "hard":
       return LevelModel.hard;
 
-    }
-    default:{
+
+    default:
       return LevelModel.medium;
-    }
+
 
   }
 }

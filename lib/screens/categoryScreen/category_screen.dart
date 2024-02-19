@@ -8,14 +8,21 @@ import 'package:product_sale/utils/colors/app_colors.dart';
 import '../levelscreen/level_screen.dart';
 
 class CategoryScreen extends StatefulWidget {
-  const CategoryScreen({super.key, required this.subjectModel});
-  final SubjectModel subjectModel;
+  const CategoryScreen({super.key});
 
   @override
   State<CategoryScreen> createState() => _CategoryScreenState();
 }
 
 class _CategoryScreenState extends State<CategoryScreen> {
+  List<SubjectModel> subjects = [];
+
+  @override
+  void initState() {
+    subjects = DataRepository.instance.allSubjects;
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +31,6 @@ class _CategoryScreenState extends State<CategoryScreen> {
         centerTitle: true,
         backgroundColor: AppColors.c_6A5AE0,
         elevation: 0,
-
         title: Text(
           "Category",
           style: TextStyle(
@@ -37,23 +43,26 @@ class _CategoryScreenState extends State<CategoryScreen> {
         crossAxisCount: 2,
         mainAxisSpacing: 15.h,
         crossAxisSpacing: 15.w,
-        childAspectRatio: 0.7.h,
+        childAspectRatio: 0.9.h,
         children: [
           ...List.generate(
-            DataRepository().allSubjects.length,
+            subjects.length,
             (index) {
-              SubjectModel subject = DataRepository().allSubjects[index];
               return SubjectItem(
                 color: AppColors.white,
                 onTap: () {
                   Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) {
-                        return LevelScreen(subjectModel: widget.subjectModel,);
-                      })
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return LevelScreen(
+                          subjectModel: subjects[index],
+                        );
+                      },
+                    ),
                   );
                 },
-                subjectModel: subject,
+                subjectModel: subjects[index],
               );
             },
           ),

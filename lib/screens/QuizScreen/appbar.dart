@@ -16,12 +16,19 @@ class _GLoAppbarState extends State<GLoAppbar> {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      leading: IconButton(onPressed: () {
-        Navigator.pop(context);
-      },
-      icon: Icon(Icons.arrow_back_ios_new_outlined),
+      centerTitle: true,
+      backgroundColor: AppColors.c_7048d4,
+      elevation: 0,
+      leading: IconButton(
+        onPressed: () {
+          Navigator.pop(context);
+        },
+        icon: Icon(Icons.arrow_back_ios_new_outlined),
       ),
-      title: Text(widget.subjectModel.subjectName,style: TextStyle(color: AppColors.white),),
+      title: Text(
+        widget.subjectModel.subjectName,
+        style: TextStyle(color: AppColors.white),
+      ),
     );
   }
 }
