@@ -265,7 +265,6 @@ class _QuizScreenState extends State<QuizScreen> {
           subjectModel: widget.subjectModel,
           selectedAnswers: selectedAnswers,
           spentTime: questions.length*10-count,
-
         ),),
       ),
     );

@@ -58,7 +58,7 @@ class AnswerReport {
       }
       falseAnswersCount = subjectModel.questions.length - trueAnswersCount;
 
-      int onlySelectedAnswersCount = 0;
+      int onlySelectedAnswersCount = 1;
       for (int i = 0; i < subjectModel.questions.length; i++) {
         if (selectedAnswers[i] != 0) {
           onlySelectedAnswersCount++;
