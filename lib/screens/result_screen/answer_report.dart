@@ -25,19 +25,24 @@ class AnswerReport {
   }
 
   _checkAnswers() {
+
     for (int i = 0; i < subjectModel.questions.length; i++) {
       QuizModel quiz = subjectModel.questions[i];
-      int selection = selectedAnswers[i]!; //0, 1,2,3,4
+      int selection = selectedAnswers[i]!;
+      //0, 1,2,3,4
       switch (selection) {
+
         case 1:
           {
-            if (quiz.trueAnswer == quiz.variant1) {
+
+            if (subjectModel.questions[i].trueAnswer == subjectModel.questions[i].variant1) {
               trueAnswersCount++;
             }
           }
         case 2:
           {
             if (quiz.trueAnswer == quiz.variant2) {
+
               trueAnswersCount++;
             }
           }
@@ -56,16 +61,18 @@ class AnswerReport {
         default:
           {}
       }
-      falseAnswersCount = subjectModel.questions.length - trueAnswersCount;
 
-      int onlySelectedAnswersCount = 1;
-      for (int i = 0; i < subjectModel.questions.length; i++) {
-        if (selectedAnswers[i] != 0) {
-          onlySelectedAnswersCount++;
-        }
-      }
-      averageTimeForEachAnswer = spentTime ~/ onlySelectedAnswersCount;
+
     }
+    falseAnswersCount = subjectModel.questions.length - trueAnswersCount;
+
+    int onlySelectedAnswersCount = 1;
+    for (int i = 0; i < subjectModel.questions.length; i++) {
+      if (selectedAnswers[i] != 0) {
+        onlySelectedAnswersCount++;
+      }
+    }
+    averageTimeForEachAnswer = spentTime ~/ onlySelectedAnswersCount;
 
     totalTime = subjectModel.questions.length * 10;
 

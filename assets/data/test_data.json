@@ -8,7 +8,7 @@
           {
             "question_text": "What is the square root of 144?",
             "true_answer": "12",
-            "variant_1": "10",
+            "variant_1": "12",
             "variant_2": "14",
             "variant_3": "16",
             "variant_4": "18"
@@ -16,7 +16,7 @@
           {
             "question_text": "If x = 5 and y = 3, what is the value of x + y?",
             "true_answer": "8",
-            "variant_1": "7",
+            "variant_1": "8",
             "variant_2": "9",
             "variant_3": "10",
             "variant_4": "12"
@@ -24,7 +24,7 @@
           {
             "question_text": "What is 25 divided by 5?",
             "true_answer": "5",
-            "variant_1": "3",
+            "variant_1": "5",
             "variant_2": "4",
             "variant_3": "6",
             "variant_4": "7"
@@ -32,7 +32,7 @@
           {
             "question_text": "If a triangle has angles measuring 90°, 45°, and 45°, what type of triangle is it?",
             "true_answer": "Right triangle",
-            "variant_1": "Equilateral triangle",
+            "variant_1": "Right triangle",
             "variant_2": "Isosceles triangle",
             "variant_3": "Scalene triangle",
             "variant_4": "Obtuse triangle"
@@ -40,7 +40,7 @@
           {
             "question_text": "What is the value of π (pi) rounded to two decimal places?",
             "true_answer": "3.14",
-            "variant_1": "3.16",
+            "variant_1": "3.14",
             "variant_2": "3.18",
             "variant_3": "3.20",
             "variant_4": "3.22"
@@ -48,7 +48,7 @@
           {
             "question_text": "What is the value of 7 factorial (7!)?",
             "true_answer": "5040",
-            "variant_1": "120",
+            "variant_1": "5040",
             "variant_2": "720",
             "variant_3": "1440",
             "variant_4": "360"
@@ -56,7 +56,7 @@
           {
             "question_text": "What is the value of the expression: (3 + 5) x 2?",
             "true_answer": "16",
-            "variant_1": "12",
+            "variant_1": "16",
             "variant_2": "14",
             "variant_3": "18",
             "variant_4": "20"
@@ -64,7 +64,7 @@
           {
             "question_text": "What is the value of 2 to the power of 4?",
             "true_answer": "16",
-            "variant_1": "8",
+            "variant_1": "16",
             "variant_2": "12",
             "variant_3": "24",
             "variant_4": "32"
@@ -72,7 +72,7 @@
           {
             "question_text": "What is the value of 6 times 9 plus 3?",
             "true_answer": "57",
-            "variant_1": "51",
+            "variant_1": "57",
             "variant_2": "54",
             "variant_3": "63",
             "variant_4": "66"
@@ -80,7 +80,7 @@
           {
             "question_text": "What is the value of 3 times (4 plus 2)?",
             "true_answer": "18",
-            "variant_1": "12",
+            "variant_1": "18",
             "variant_2": "15",
             "variant_3": "21",
             "variant_4": "24"
@@ -88,7 +88,7 @@
           {
             "question_text": "What is the value of 8 minus (5 minus 2)?",
             "true_answer": "5",
-            "variant_1": "3",
+            "variant_1": "5",
             "variant_2": "4",
             "variant_3": "6",
             "variant_4": "7"
@@ -98,14 +98,14 @@
             "true_answer": "3",
             "variant_1": "2",
             "variant_2": "4",
-            "variant_3": "6",
+            "variant_3": "3",
             "variant_4": "9"
           },
           {
             "question_text": "What is the value of 2 raised to the power of 3 plus 4?",
             "true_answer": "12",
             "variant_1": "8",
-            "variant_2": "10",
+            "variant_2": "12",
             "variant_3": "14",
             "variant_4": "16"
           },
@@ -114,13 +114,13 @@
             "true_answer": "2.5",
             "variant_1": "2",
             "variant_2": "3",
-            "variant_3": "4",
+            "variant_3": "2.5",
             "variant_4": "5"
           },
           {
             "question_text": "What is the value of 7 times (4 minus 2) divided by 2?",
             "true_answer": "7",
-            "variant_1": "4",
+            "variant_1": "7",
             "variant_2": "5",
             "variant_3": "6",
             "variant_4": "8"
@@ -129,7 +129,7 @@
             "question_text": "If a right triangle has one leg measuring 6 and the other leg measuring 8, what is the length of the hypotenuse?",
             "true_answer": "10",
             "variant_1": "12",
-            "variant_2": "14",
+            "variant_2": "7",
             "variant_3": "16",
             "variant_4": "18"
           },
@@ -144,7 +144,7 @@
           {
             "question_text": "What is the value of 3 raised to the power of 2 minus 4?",
             "true_answer": "5",
-            "variant_1": "2",
+            "variant_1": "18",
             "variant_2": "3",
             "variant_3": "6",
             "variant_4": "9"
@@ -153,14 +153,14 @@
             "question_text": "What is the value of 36 divided by the square root of 9?",
             "true_answer": "12",
             "variant_1": "6",
-            "variant_2": "9",
+            "variant_2": "12",
             "variant_3": "15",
             "variant_4": "18"
           },
         {
           "question_text": "g’ri burchakli uchburchakning perimetri 36 sm. Gipotenuzaning katetga nisbati 5:4.Uchburchak tomonlarini toping.?",
           "true_answer": "11,2",
-          "variant_1": "12,2",
+          "variant_1": "11,2",
           "variant_2": "11,2",
           "variant_3": "8,6",
           "variant_4": "5.4"
@@ -173,7 +173,7 @@
       "questions": [
         {
           "question_text": "What's your name?",
-          "true_answer": "Ali",
+          "true_answer": "Sharif",
           "variant_1": "Sharif",
           "variant_2": "5",
           "variant_3": "9",

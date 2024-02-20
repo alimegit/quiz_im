@@ -23,14 +23,13 @@ class _QuizScreenState extends State<QuizScreen> {
   int count = 0;
 
   Future<void> _timerLogic() async {
-    for (int i = questions.length * 5; i>=0;i--) {
+    for (int i = questions.length * 5; i >= 0; i--) {
       setState(() {
         count = i;
       });
       await Future.delayed(const Duration(
         seconds: 1,
       ));
-
     }
     _navigateToResultScreen();
   }
@@ -71,7 +70,7 @@ class _QuizScreenState extends State<QuizScreen> {
               backgroundColor: AppColors.c_162023,
               borderRadius: BorderRadius.circular(8.r),
               color: AppColors.c_F2954D,
-              value: count/(questions.length*5),
+              value: count / (questions.length * 5),
             ),
           ),
           SizedBox(
@@ -80,14 +79,18 @@ class _QuizScreenState extends State<QuizScreen> {
           Row(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
+              Text("Savollar soni ${widget.subjectModel.questions.length}"),
+              SizedBox(width: 10,),
               SvgPicture.asset(
                 AppImages.timer,
                 width: 20.w,
                 height: 20.h,
               ),
-              SizedBox(width: 5.w,),
+              SizedBox(
+                width: 5.w,
+              ),
               Padding(
-                padding:  EdgeInsets.only(right: 10.w),
+                padding: EdgeInsets.only(right: 10.w),
                 child: Text(getMinutelyText(count)),
               ),
             ],
@@ -240,13 +243,13 @@ class _QuizScreenState extends State<QuizScreen> {
             previousVisibility: activeIndex != 0,
             nextButtonVisibility: activeIndex != questions.length - 1,
             onPrevious: () {
-              if (activeIndex >= 1) {
                 activeIndex--;
                 selectIndex = selectedAnswers[activeIndex]!;
-              }
               setState(() {});
             },
             onNext: () {
+              selectedAnswers[activeIndex] = selectIndex;
+
               selectIndex = 0;
               activeIndex++;
 
@@ -257,18 +260,23 @@ class _QuizScreenState extends State<QuizScreen> {
       ),
     );
   }
+
   _navigateToResultScreen() {
-    Navigator.push(
+    print(selectedAnswers);
+    Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (context) => ResultScreen(abstractReport:AnswerReport(
-          subjectModel: widget.subjectModel,
-          selectedAnswers: selectedAnswers,
-          spentTime: questions.length*10-count,
-        ),),
+        builder: (context) => ResultScreen(
+          abstractReport: AnswerReport(
+            subjectModel: widget.subjectModel,
+            selectedAnswers: selectedAnswers,
+            spentTime: questions.length * 10 - count,
+          ),
+        ),
       ),
     );
   }
+
   String getMinutelyText(int timeInSeconds) {
     int min = timeInSeconds ~/ 60;
     int sec = timeInSeconds % 60;
